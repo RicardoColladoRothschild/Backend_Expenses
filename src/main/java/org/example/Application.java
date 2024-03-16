@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 /*@SpringBootApplication*/
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class })
 @ComponentScan(basePackages = {"org.example"})
-@EnableJpaRepositories("org.example.Repository")
+/*@EnableJpaRepositories("org.example.Repository")*/
 public class Application {
     public static void main(String[] args) {
         System.out.println("Starting app...");
