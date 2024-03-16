@@ -30,13 +30,15 @@ public class Expenses {
     private LocalDate UpdatedAt;
 
 
+
+
     //Getter and Setter methods:
 
-    public String description(){
+    public String getDescription(){
         return this.description;
     }
 
-    public void setName(String description){
+    public void setDescription(String description){
         this.description = description;
     }
 
